@@ -12,6 +12,31 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
-const average = () => {};
+//  const average = (array) => {
+// //   if (array.length === 0) return undefined;
+// //   for (let index = 0; index < array.length; index += 1) {
+// //     if (typeof array[index] !== 'number') return undefined;
+// //   }
+// //   return Math.round(array.reduce((y, x) => y + x) / array.length);
+// // };
+
+// // module.exports = average;
+
+// A função average recebe um array (tamanho variável) e retorna a média dos valores recebidos.
+
+// arrVariable = [2, 3, 4, 6, 7];
+// arrtest = ['11', 3, 0];
+// arrtest2 = [];
+// function average(arrVariable) {
+// for let media = i; i < arrVariable.length; i +=
+// }
+
+const average = (arr) => {
+  let newArray = 0;
+  if (typeof arr !== 'number' || arr.length === 0) return undefined;
+
+}
+
+arr.reduce((a, b) => a + b, 0) / arr.length
 
 module.exports = average;
