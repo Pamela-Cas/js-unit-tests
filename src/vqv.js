@@ -16,6 +16,7 @@
       #VQV!'
 */
 
-const vqv = () => {};
+const vqv = () => {
+};
 
 module.exports = vqv;
